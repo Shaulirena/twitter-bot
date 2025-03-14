@@ -24,7 +24,7 @@ try:
     print("✅ התחברנו לטוויטר בהצלחה!")
 
     # ניסיון לציוץ
-    tweet_text = "ציוץ בדיקה מהבוט! 🚀"
+    tweet_text = "test"
     api.update_status(status=tweet_text)
     print(f"✅ ציוץ פורסם: {tweet_text}")
 
